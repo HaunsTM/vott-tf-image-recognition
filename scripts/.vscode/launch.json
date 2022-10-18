@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : [
+                "--csv_input","/mnt/d/Users/hansb/vott-tf-image-recognition/annotations/test_labels.csv", 
+                "--output_path","/mnt/d/Users/hansb/vott-tf-image-recognition/annotations/test.record", 
+                "--img_path","/mnt/d/Users/hansb/vott-tf-image-recognition/annotations/images/test"
+            ],
+            "purpose": ["debug-in-terminal"]
+        }
+    ]
+}
