@@ -1,0 +1,14 @@
+
+Ubuntu-maskinen:
+	docker run -it --rm -v /mnt:/mnt -w /tmp tensorflow/tensorflow bash
+
+
+	docker-container
+		pip install pandas
+
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/tensorflow-1.14/training.html
+https://www.geeksforgeeks.org/install-tensorflow-on-linux/
+
+# python /mnt/d/Users/hansb/chicken-model/vott-csv-export/tensorflow/scripts/preprocessing/generate_tfrecord.py --label=hen --csv_input=/mnt/d/Users/hansb/chicken-model/vott-csv-export/tensorflow/annotations/train_labels.csv --output_path=/mnt/d/Users/hansb/chicken-model/vott-csv-export/tensorflow/annotations/train.record --img_path=/mnt/d/Users/hansb/chicken-model/vott-csv-export/tensorflow/images/train  
+
+# python generate_tfrecord.py --label=hen --csv_input=/mnt/d/Users/hansb/chicken-model/vott-csv-export/tensorflow/annotations/test_labels.csv --output_path=/mnt/d/Users/hansb/chicken-model/vott-csv-export/tensorflow/annotations/test.record --img_path=/mnt/d/Users/hansb/chicken-model/vott-csv-export/tensorflow/images/test  
